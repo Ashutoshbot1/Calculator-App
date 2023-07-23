@@ -15,3 +15,9 @@
         font-size: 40%;
     }
 }
+
+@media screen and (max-width:250px) {
+    :root{
+        font-size: 38%;
+    }
+}
