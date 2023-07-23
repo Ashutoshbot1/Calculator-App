@@ -11,7 +11,8 @@ buttons.forEach(
                 let key=event.target.innerHTML;
                 
                 if(key==="="){
-                    string=eval(string);
+                    string=eval(string)+"";
+                    console.log(typeof string);
                     input.value=string;
                     // key="";
                 }
